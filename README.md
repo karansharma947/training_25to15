@@ -1,4 +1,4 @@
-#Day 1 of learning something new 
+
 # Day 1 - 25th June 2025
 
 ##  What I Learned Today
