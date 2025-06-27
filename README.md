@@ -107,6 +107,45 @@ Shell is divided into two categories-
 
   ![VirtualBox_Ubuntu_26_06_2025_11_41_32](https://github.com/user-attachments/assets/6aea5baf-6888-4672-996a-6ce7ac3e4ef0)
 
+# Day 3 of learning something new:
+## Permissions & Shell programming:
+### File and directory permissions:
+`chmod` (Change mode): It is used to change the access permissions of files and directories.
+
+Some different chmod permission notations are:<br>
+ `chmod +x test.sh`:  Gives permission to run the script.<br>
+ `chmod 444 test.sh`: Changes file to read-only
+ `chmod 644 test.sh`: Changes file such that only owner can edit it. For others it remain read-only.
+
+### Redirection:
+ It allows user to redirect input and output functionalities to the files or folders. 
+
+**Types of Redirection:**
+1. Overwrite Redirection (For stdout):<br>
+Redirects the standard output of a command to a file. If the file exists already contain script, it will be overwritten.<br>
+">" standard output<br>
+
+
+2. Append Redirection (For stdout): 
+Append the output to the file without compromising the existing data of the file.
+
+3. Overwrite Redirection (For stdin):<br> 
+Redirects the standard input of a command to a file.<br>
+"<" standard input
+
+## Screen shot as i follow the above command some may be can reapeat for my clarity:
+
+![VirtualBox_Ubuntu_27_06_2025_11_56_30](https://github.com/user-attachments/assets/7ae463fa-c180-4dfa-b47d-568fecb1b8d4)
+![VirtualBox_Ubuntu_27_06_2025_12_00_22](https://github.com/user-attachments/assets/0f05cb69-600e-402a-909f-20f44ce233cf)
+![VirtualBox_Ubuntu_27_06_2025_12_02_29](https://github.com/user-attachments/assets/f7dabbcc-8480-4397-ac6f-49ef42fa9127)
+![VirtualBox_Ubuntu_27_06_2025_12_03_36](https://github.com/user-attachments/assets/54870b60-91cb-4733-8134-4b07af78cb99)
+![VirtualBox_Ubuntu_27_06_2025_12_05_14](https://github.com/user-attachments/assets/4ae60a1e-87c7-4a99-9f93-b65331784b32)
+![VirtualBox_Ubuntu_27_06_2025_12_06_27](https://github.com/user-attachments/assets/e4f7de29-d1a1-45ac-b25c-dab1d0ef3670)
+![VirtualBox_Ubuntu_27_06_2025_12_08_33](https://github.com/user-attachments/assets/aa496a2d-e381-45a2-ade9-ac274a03562e)
+
+
+
+
 
 
 
