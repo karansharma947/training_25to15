@@ -143,7 +143,26 @@ Redirects the standard input of a command to a file.<br>
 ![VirtualBox_Ubuntu_27_06_2025_12_06_27](https://github.com/user-attachments/assets/e4f7de29-d1a1-45ac-b25c-dab1d0ef3670)
 ![VirtualBox_Ubuntu_27_06_2025_12_08_33](https://github.com/user-attachments/assets/aa496a2d-e381-45a2-ade9-ac274a03562e)
 
+### Shell programming:
+1. Use of variables:
+2. Multiplication table of any number:
+3. Comparing two variables:
 
+![VirtualBox_Ubuntu_29_06_2025_10_37_05](https://github.com/user-attachments/assets/4b2ac37b-e4d5-4500-af00-96fa3313641d)
+![VirtualBox_Ubuntu_29_06_2025_10_45_09](https://github.com/user-attachments/assets/dff6799c-c032-483d-8840-521b62dcaabe)
+![VirtualBox_Ubuntu_29_06_2025_10_46_42](https://github.com/user-attachments/assets/cf435abe-be0f-4e42-8d3e-b8bf9bae5c90)
+![VirtualBox_Ubuntu_29_06_2025_12_54_42](https://github.com/user-attachments/assets/2f15e5a9-83ad-403f-8bb4-7f1540d5a43d)
+![VirtualBox_Ubuntu_29_06_2025_12_56_27](https://github.com/user-attachments/assets/222ea98b-77be-4235-9fb6-45be5788831d)
+![VirtualBox_Ubuntu_29_06_2025_12_56_53](https://github.com/user-attachments/assets/8a7a316e-dcf0-4b7e-9a56-e707a564922a)
+![VirtualBox_Ubuntu_29_06_2025_12_43_19](https://github.com/user-attachments/assets/d766826e-7965-410d-afa4-85545dd25d05)
+![VirtualBox_Ubuntu_29_06_2025_10_15_27](https://github.com/user-attachments/assets/fb76590c-cda8-4ce3-9337-a264b357fb63)
+### Pipe '|':
+The pipe is used to combine two or more commands, and in this, the output of one command acts as input to another command.
+
+*Pipe can be used for filteration.* <br>
+Multiple pipes can be used such as:
+
+*to find number of file/directory with 't'* <br>
 
 
 
