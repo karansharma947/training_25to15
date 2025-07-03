@@ -317,3 +317,154 @@ It is a diagnostic test run by the BIOS/UEFI when the PC starts to check hardwar
 | **Access BIOS**           | Press **Del**, **F2**, or **Esc** right after turning on PC                             |
 | **Reset BIOS to Default** | Use “Load Setup Defaults” or remove the **CMOS battery** for 30 seconds                 |
 | **Update BIOS**           | Download latest version from motherboard brand's site and follow instructions carefully |
+# Defragmentation
+* Your hard disk stores files in small pieces. Over time, the pieces get scattered. This is called fragmentation.
+
+* Defragmentation means putting all the scattered file pieces back together, so your computer can find them faster.
+
+# Optimization
+
+* Optimization means making your computer or software work faster and more efficiently. It involves cleaning up unnecessary files, fixing errors, managing startup programs, and adjusting settings so everything runs smoothly.
+
+* By optimizing your system, you can improve speed, reduce crashes, and get better overall performance.
+
+  ### **_Scheduled Optimization_**
+  * Scheduled Optimization is setting your computer or device to automatically perform maintenance tasks at regular times—like cleaning up junk files, defragmenting the disk, or scanning for errors—without you having to do it manually.
+  * This helps keep your system running smoothly and fast without interrupting your work.
+
+  ### **_Delivery Optimization_**
+  Delivery Optimization is a Windows feature that helps manage and speed up downloading Windows updates and Microsoft Store apps by using peer-to-peer (P2P) sharing across your local network or the internet.
+
+  
+# Why Install an Antivirus Scanner?
+An antivirus is like a bodyguard for your computer.
+It protects your computer from:
+* Viruses (harmful programs)
+* Malware (spyware, ransomware, etc.)
+* Hackers trying to steal your data
+* Dangerous files from pen drives, emails, or the internet
+
+  ### **_Protects Your Computer :_** 
+  Detects and removes viruses, malware, spyware, and other harmful software that can damage your files or system.
+
+  ### **_Prevents Data Theft :_** 
+  Stops hackers and malicious software from stealing your personal information like passwords, bank details, and documents.
+
+  ### **_Keeps System Running Smoothly :_** 
+  Removes unwanted programs that slow down your computer or cause crashes.
+
+  ### **_Safeguards Against New Threats :_** 
+  Regular updates help protect you from the latest viruses and cyberattacks.
+
+# Printer Problems and Solutions
+
+| No. | Problem                    | Reason                           | Easy Solution               |
+| ------ | ------------------ | ----------------------------------- | ----------------------------- |
+| 1      | **Printer says "No Paper"**   | No paper in tray                    | Put fresh paper into the paper tray                  |
+| 2      | **Paper Jam**                 | Paper stuck inside the printer      | Turn off printer, open the back, remove paper gently |
+| 3      | **Low or No Ink**             | Ink cartridge is empty              | Replace or refill the ink cartridge                  |
+| 4      | **Printer not detected**      | Loose cable or not connected        | Check USB cable or Wi-Fi connection                  |
+| 5      | **Printer driver missing**    | Driver not installed or outdated    | Download and install the correct driver              |
+| 6      | **Printing is too slow**      | High-quality print mode is on       | Change settings to "Draft" mode                      |
+| 7      | **Print is faded or patchy**  | Dirty or clogged print head         | Clean the print head from printer settings           |
+| 8      | **Wi-Fi printer not working** | Printer not connected to same Wi-Fi | Reconnect printer and computer to same Wi-Fi         |
+| 9      | **Stuck in queue**            | Old print jobs not cleared          | Cancel or restart the print queue                    |
+| 10     | **Error messages blinking**   | Various printer errors              | Restart the printer or check the manual    |
+
+  ### **_Tips for Printer Maintenance_**
+  * Regularly update printer drivers.
+  * Use recommended paper and ink/toner.
+  * Keep printer clean and free of dust.
+  * Restart printer and computer if issues persist.
+  * Consult printer manual for model-specific troubleshooting.
+
+  ### **_Benefits of Updates_**
+
+  **_Improved Security :_** Updates patch vulnerabilities that hackers could exploit.
+  
+  **_Bug Fixes :_** They fix software errors and glitches for smoother performance.
+  
+  **_New Features :_** Updates often add new tools and functionalities.
+  
+  **_Better Compatibility :_** Ensure your software works well with new hardware and other programs.
+  
+  **_Performance Enhancements :_** Updates can speed up software and make it more efficient.
+  
+  **_Stability Improvements :_** Reduce crashes and unexpected errors.
+  
+  **_Compliance :_** Keeps software up to date with industry standards and regulations.
+
+# Blue Screen of Death (BSOD)
+The Blue Screen of Death (also called STOP error) is when your computer suddenly stops working and shows a blue screen with a sad face and some error message.
+
+  ### **_Why BSOD happens_**
+  * Faulty or incompatible hardware (like bad RAM or hard drives)
+  * Driver problems (corrupted or outdated drivers)
+  * Software bugs or corrupted system files
+  * Overheating or hardware failures
+  * Malware or virus infections
+  * Conflicts between software and hardware
+  When BSOD occurs, Windows shows an error code to help identify the problem.
+
+# System crash analysis
+System crash analysis is the process of investigating why a computer suddenly stops working or restarts unexpectedly. The goal is to find the cause and fix it to prevent future crashes.
+
+  ### **_How it’s done?_**
+
+  * Check error messages or codes shown during the crash.
+  * Review system logs using tools like Event Viewer.
+  * Analyze crash dump files with utilities such as BlueScreenView or WinDbg.
+  * Look for recent changes in hardware, software, or drivers that might have caused the crash.
+  * Run hardware diagnostics to check for failing components.
+    
+  ### **_Fixes usually involve_**
+  * Updating or rolling back drivers.
+  * Removing problematic software.
+  * Repairing corrupted system files.
+  * Replacing faulty hardware.
+
+# Key Concepts
+  ### **_Dump Files_**
+  When Windows crashes, it creates dump files—snapshots of system memory at the crash moment. These files contain critical information to analyze the error and are usually saved on the C: drive in locations like:
+
+  Having sufficient free space on the C: drive is essential to allow these files to be saved.
+
+  ### **_Windows Debugging_**
+  Windows debugging involves using specialized tools to analyze dump files and understand the crash cause. Common tools include:
+
+  * **_WinDbg :_** Microsoft's official debugger for detailed dump analysis.
+  * **_BlueScreenView :_** A simpler tool that summarizes BSOD dump files.
+
+  Debugging helps identify :
+  * Faulty drivers or system files
+  * Hardware issues
+  * Software conflicts
+    
+  ### **_Role of the C: Drive_**
+  * Stores dump files and system logs
+  * Houses Windows OS files required for crash analysis
+  * Needs enough space to save crash dumps; without it, useful diagnostic data may be lost
+    
+  ### **_Basic Crash Analysis Workflow_**
+  * Locate dump files on the C: drive.
+  * Use debugging tools (WinDbg or BlueScreenView) to analyze the dumps.
+  * Identify error codes and faulting modules or drivers.
+  * Review Windows Event Viewer for related system events.
+  * Test hardware components if indicated.
+  * Update, rollback, or reinstall drivers/software as needed.
+  * Monitor system for stability after applying fixes.
+    
+# ASSIGNMENT
+---
+
+### **_BIOS_**
+* BIOS = Basic Input Output System
+* It's the first software that runs when you turn on your computer.
+* It checks your hardware (keyboard, RAM, hard disk, etc.) and then loads Windows or Linux.
+
+### **_UEFI_**
+* UEFI = Unified Extensible Firmware Interface
+* It's the modern version of BIOS.
+* It looks better (with mouse support), is faster, and supports bigger hard drives.
+
+
