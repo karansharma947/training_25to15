@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Karan's Food World</title>
+  <style>
+    * {margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, sans-serif;}
+    body {background: #fffaf0; color: #222121;}
+    header {background: #4CAF50; color: white; text-align: center; padding: 30px 0;}
+    h2 {color: #4CAF50; margin: 20px 0; text-align: center;}
+    .container {max-width: 1200px; margin: auto; padding: 20px;}
+    .section {margin-bottom: 60px;}
+    .grid {display: grid; grid-template-columns: repeat(auto-fit, minmax(200px,1fr)); gap: 10px;}
+
+    .card {
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      overflow: hidden;
+      text-align: center;
+    }
+    .card:hover {transform: scale(2.30);transition: transform 1s;}
+    .card img {
+      width: 100%;
+      height: 150px;
+      object-fit: cover;
+    }
+    .card p {
+      padding: 10px;
+      font-weight: bold;
+      color: #4CAF50;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #222;
+      color: white;
+    }
+    @media (max-width: 600px) {
+      .card img {height: 120px;}
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>🍽️ Karan's Food World</h1>
+    <p>Click any dish to explore its recipe and ingredients!</p>
+  </header>
+
+  <div class="container">
+
+    <section class="section">
+      <h2>🥦 Veg Dishes</h2>
+      <div class="grid">
+        <a class="card" href="https://www.indianhealthyrecipes.com/paneer-butter-masala/" target="_blank">
+          <img src="https://static.vecteezy.com/system/resources/previews/030/323/043/non_2x/delicious-paneer-bater-masala-dish-in-an-indian-restaurant-generative-ai-photo.jpg" alt="Paneer">
+          <p>Paneer Butter Masala</p>
+        </a>
+        <a class="card" href="https://www.vegrecipesofindia.com/aloo-gobi-recipe/" target="_blank">
+          <img src="https://tse4.mm.bing.net/th/id/OIP.gi0lt-nw_BbPIRP2HAfEYAHaE7?w=626&h=417&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Aloo Gobi">
+          <p>Aloo Gobi</p>
+        </a>
+        <a class="card" href="https://www.indianhealthyrecipes.com/palak-paneer/" target="_blank">
+          <img src="https://img.freepik.com/premium-photo/palak-paneer-photo_992976-40.jpg" alt="Palak Paneer">
+          <p>Palak Paneer</p>
+        </a>
+        <a class="card" href="https://www.indianhealthyrecipes.com/veg-biryani/" target="_blank">
+          <img src="https://www.dwarakaorganic.com/wp-content/uploads/2012/06/Veg-Biryani-Recipe.jpg" alt="Veg Biryani">
+          <p>Veg Biryani</p>
+        </a>
+        <a class="card" href="https://www.vegrecipesofindia.com/rajma-recipe-rajma-masala/" target="_blank">
+          <img src="https://tse3.mm.bing.net/th/id/OIP.swclREp2zDpbAIkHwuk1DwHaGP?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Rajma">
+          <p>Rajma Chawal</p>
+        </a>
+        <a class="card" href="https://www.vegrecipesofindia.com/masala-dosa/" target="_blank">
+          <img src="https://ranveerbrar.com/wp-content/uploads/2021/02/Masala-dosa-scaled-scaled.jpg" alt="Dosa">
+          <p>Masala Dosa</p>
+        </a>
+        <a class="card" href="https://www.vegrecipesofindia.com/chole-bhature/" target="_blank">
+          <img src="https://static.vecteezy.com/system/resources/thumbnails/040/706/520/small_2x/ai-generated-north-indian-delights-indulge-in-the-irresistible-chole-bhature-generative-ai-photo.jpg" alt="Chole">
+          <p>Chole Bhature</p>
+        </a>
+        <a class="card" href="https://www.indianhealthyrecipes.com/vegetable-pulao/" target="_blank">
+          <img src="https://th.bing.com/th/id/R.eb7e1005ab3fbc6fbead0aeffad2a8b0?rik=93LPHPmWHtiXgA&riu=http%3a%2f%2fwww.archanaskitchen.com%2fimages%2farchanaskitchen%2f1-Author%2fgarimasgautam-gmail.com%2fNepalese_Veg_Pulao.jpg&ehk=jsemCYfr6EvgRlzCa6UkiENu1pgWGgpsgPYW4O2Cy4M%3d&risl=&pid=ImgRaw&r=0" alt="Pulao">
+          <p>Veg Pulao</p>
+        </a>
+        <a class="card" href="https://www.indianhealthyrecipes.com/kadhi-pakora-recipe/" target="_blank">
+          <img src="https://img.freepik.com/premium-photo/kadhi-pakora_1114710-3535.jpg" alt="Kadhi">
+          <p>Kadhi Pakora</p>
+        </a>
+        <a class="card" href="https://www.vegrecipesofindia.com/baingan-bharta-recipe/" target="_blank">
+          <img src="https://www.scrumptiously.com/wp-content/uploads/2023/11/BainganBharta.webp" alt="Baingan Bharta">
+          <p>Baingan Bharta</p>
+        </a>
+        <a class="card" href="https://www.vegrecipesofindia.com/dal-makhani/" target="_blank">
+          <img src="https://wallpaperaccess.com/full/10569428.jpg" alt="Dal Makhani">
+          <p>Dal Makhani</p>
+        </a>
+        <a class="card" href="https://www.indianhealthyrecipes.com/bhindi-masala/" target="_blank">
+          <img src="https://tse1.mm.bing.net/th/id/OIP.hdA68EHRLwjkL8pcqYh6TgHaHa?rs=1&pid=ImgDetMain&o=7&rm=3+" alt="Bhindi">
+          <p>Bhindi Masala</p>
+        </a>
+        <a class="card" href="https://www.indianhealthyrecipes.com/veg-korma-recipe/" target="_blank">
+          <img src="https://tse4.mm.bing.net/th/id/OIP.XY_R_CyBr_z0kckjcu5zhQHaE8?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Veg Korma">
+          <p>Veg Korma</p>
+        </a>
+        <a class="card" href="https://www.vegrecipesofindia.com/veg-manchurian-recipe/" target="_blank">
+          <img src="https://media.istockphoto.com/id/1208083887/photo/freshly-prepared-veg-manchurian-with-a-bowl-of-fried-rice.jpg?s=612x612&w=0&k=20&c=nTtgKk-SSQAh1E0Pz8SnpGjqMRSIIXM6XiDHIsd5LDQ=" alt="Manchurian">
+          <p>Veg Manchurian</p>
+        </a>
+        <a class="card" href="https://www.indianhealthyrecipes.com/pav-bhaji-recipe/" target="_blank">
+          <img src="https://static.vecteezy.com/system/resources/previews/016/282/565/non_2x/cheese-pav-bhaji-recipe-is-a-street-food-bhaji-pav-recipe-with-addition-of-cheese-free-photo.jpg" alt="Pav Bhaji">
+          <p>Pav Bhaji</p>
+        </a>
+      </div>
+    </section>
+
+    
+    <section class="section">
+      <h2>🍗 Non-Veg Dishes</h2>
+      <div class="grid">
+        <a class="card" href="https://www.indianhealthyrecipes.com/butter-chicken/" target="_blank">
+          <img src="https://img.freepik.com/premium-photo/butter-chicken_466689-54441.jpg?w=1480" alt="Butter Chicken">
+          <p>Butter Chicken</p>
+        </a>
+        <a class="card" href="https://www.indianhealthyrecipes.com/chicken-biryani/" target="_blank">
+          <img src="https://th.bing.com/th/id/R.32e4263433445f4f08506316410f3c89?rik=EY4fdYLOgHZ41w&riu=http%3a%2f%2fwww.top10.mowval.com%2fimages%2ftop10list%2fCB-Banner-min.jpg&ehk=23Fej34R56LjS%2bkapWH98j6zIj6ssFnep1PQ5FY%2f5vY%3d&risl=&pid=ImgRaw&r=0" alt="Chicken Biryani">
+          <p>Chicken Biryani</p>
+        </a>
+        <a class="card" href="https://www.indianhealthyrecipes.com/fish-curry-recipe/" target="_blank">
+          <img src="https://tse3.mm.bing.net/th/id/OIP.7JiSgjhKKrEfpKpklKEbFgHaHa?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Fish Curry">
+          <p>Fish Curry</p>
+        </a>
+        <a class="card" href="https://www.indianhealthyrecipes.com/mutton-korma/" target="_blank">
+          <img src="https://www.licious.in/blog/wp-content/uploads/2020/12/Mutton-Korma-1.jpg" alt="Mutton Curry">
+          <p>Mutton Korma</p>
+        </a>
+        <a class="card" href="https://www.indianhealthyrecipes.com/egg-curry-recipe/" target="_blank">
+          <img src="https://tse4.mm.bing.net/th/id/OIP.4SXN_yUZFShwsZnf8kVBpAHaHa?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Egg Curry">
+          <p>Egg Curry</p>
+        </a>
+
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>🥗 Diet Food</h2>
+      <div class="grid">
+        <a class="card" href="https://www.indianhealthyrecipes.com/sprouts-salad/" target="_blank">
+          <img src="https://j6e2i8c9.rocketcdn.me/wp-content/uploads/2014/01/Healthy-Sprouts-Salad-7.jpg" alt="Sprouts Salad">
+          <p>Sprouts Salad</p>
+        </a>
+        <a class="card" href="https://www.indianhealthyrecipes.com/oats-upma-recipe/" target="_blank">
+          <img src="https://i.pinimg.com/originals/53/2a/b2/532ab2a75f5559a774c3982d463b627f.jpg" alt="Oats Upma">
+          <p>Oats Upma</p>
+        </a>
+        <a class="card" href="https://www.indianhealthyrecipes.com/vegetable-soup-recipe/" target="_blank">
+          <img src="https://www.indianhealthyrecipes.com/wp-content/uploads/2021/08/vegetable-soup.jpg" alt="Veg Soup">
+          <p>Vegetable Soup</p>
+        </a>
+        <a class="card" href="https://www.indianhealthyrecipes.com/quinoa-salad-recipe/" target="_blank">
+          <img src="https://tse4.mm.bing.net/th/id/OIP.H96zNSykB9guvCkuLKY04gAAAA?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Quinoa Salad">
+          <p>Quinoa Salad</p>
+        </a> 
+        <a class="card" href="https://www.indianhealthyrecipes.com/fruit-salad-recipe/" target="_blank">
+          <img src="https://tse3.mm.bing.net/th/id/OIP.bXg8Q-itIXp_RY_Nt8NQXgAAAA?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Fruit Bowl">
+          <p>Fruit Bowl</p>
+        </a>
+      </div>
+    </section>
+
+  </div>
+
+  <footer>
+    <p>© 2025 Karan's Food World. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
+
+<section class="section">
+  <h2>💬 Share Your Feedback</h2>
+  <div style="text-align: center;">
+    <p>We’d love to know how our recipes worked for you!</p>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdGe-oxrzu1KCIn7WNVBsFdsI4F1EnPaceEHhr2upY_ZccAQQ/viewform?usp=header" 
+       target="_blank" 
+       style="display: inline-block; background-color: #4CAF50; color: white; text-decoration: none; font-weight: bold; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.2);">
+      📩 Submit Your Feedback
+    </a>
+  </div>
+  <form action="/acon.php" style="align-item: center; margin-left: 675px; margin-top: 15px; height: 50px; width: 50px;">
+    <input type="text" placeholder="Type your review">
+  </form>
+
+</section>
